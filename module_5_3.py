@@ -4,6 +4,7 @@ def check_House(check_object):
     else:
         print(f'Проверка выявила, что "{check_object}" не является объектом класса House')
         return False
+        
 class House:
     def __init__(self, name, number_of_floors):
         self.name = name
